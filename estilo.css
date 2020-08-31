@@ -1,0 +1,148 @@
+body{
+
+
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#header{
+
+
+
+    border: 1px solid black;
+    height: 153px;
+    width: 100%;
+    background-color:  #303d7d;
+    border-bottom: 1px solid #ccc;
+    border-top: 5px solid rgb(86, 3, 240);
+}
+
+.center{
+
+    width: 75%;
+    margin: 0px auto;
+
+}
+#logo{
+
+    width: 30%;
+    font-size: 30px;
+    float: left;
+    margin-top: 20px;
+}
+#logo img{
+display: block;
+
+float: left;
+height: 85px;
+
+}
+#brand{
+
+
+    display: block;
+    float: left;
+    margin: 0px;
+    color: white;
+    animation: animacion-texto infinite 10s linear;
+
+}
+@keyframes animacion-texto{
+    from{
+        color: white;
+    }
+        to{
+            color: black;
+        }
+   
+}
+
+#menu{
+    width: 70%;
+    float: left;
+    font-size: 23px;
+    display:-moz-inline-stack;
+
+}
+#menu ul{
+    line-height: 100px;
+    width: 76%;
+    float: right;
+}
+#menu ul li{
+display: inline-block;
+list-style: none;
+height: 45px;
+margin-left: 30px;
+margin-right: 15px;
+
+}
+
+#menu a {
+
+    text-decoration: none;
+    color: white;
+    transition: 300ms all;
+
+}
+
+#menu a:hover{
+
+    color: #616161;
+
+}
+
+#slider{
+width: 100%;
+height: 350px;
+/*background: #5999d4 ;*/
+line-height: 300px;
+text-shadow: 0px 0px 2px black;
+background: rgba(255,255,255,1);
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(89,89,212,1) 54%, rgba(246,246,246,1) 73%, rgba(246,246,246,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(54%, rgba(89,89,212,1)), color-stop(73%, rgba(246,246,246,1)), color-stop(100%, rgba(246,246,246,1)));
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(89,89,212,1) 54%, rgba(246,246,246,1) 73%, rgba(246,246,246,1) 100%);
+background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(89,89,212,1) 54%, rgba(246,246,246,1) 73%, rgba(246,246,246,1) 100%);
+background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(89,89,212,1) 54%, rgba(246,246,246,1) 73%, rgba(246,246,246,1) 100%);
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(89,89,212,1) 54%, rgba(246,246,246,1) 73%, rgba(246,246,246,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6', GradientType=0 );
+}
+
+#slider h1{
+
+
+    margin-top: 0.2px;
+    padding: 0px;
+    padding-top:  120px;
+    text-align: center;
+}
+
+.btn-white{
+
+    display: block;
+    background: gray;
+    padding: 10px;
+    width: 100px;
+    height: 30px;
+    margin: -127px auto;
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+    text-shadow: none;
+    line-height: 30px;
+box-shadow: 0px 0px 3px #444;
+text-decoration:none ;
+border-radius: 1px;
+transition: 300ms all;
+
+}
+
+.btn-white:hover {
+background: #444;
+color: white;
+
+
+
+}
